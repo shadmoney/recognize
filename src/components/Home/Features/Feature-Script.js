@@ -26,9 +26,8 @@ const features = [
     link: "Buy and List NFTs",
     url: "/marketplace",
     image: exploreImage,
-    title: "Distribute the art you own directly to eager collectors & fans",
-    description:
-      "Our marketplace is where buyers and collectors trade NFTs effortlessly across the hottest blockchains",
+    title: "Create and distribute digital assets directly to your members, collectors & fans",
+    description: "Our marketplace is digital asset providers and consumers trade NFTs effortlessly across blockchains",
   },
 ];
 

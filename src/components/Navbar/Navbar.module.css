@@ -27,7 +27,7 @@
   opacity: 0;
 }
 
-.logoContainer:hover .drop {
+/* .logoContainer:hover .drop {
   transform: translateY(100%);
   animation: drop 650ms;
 }
@@ -40,7 +40,7 @@
 .logoMobile,
 .logoDesktop {
   transition: all 650ms;
-}
+} */
 
 @keyframes drop {
   from {

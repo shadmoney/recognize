@@ -23,8 +23,8 @@ const Banner = () => {
   return (
     <div className={classes.container}>
       <div className={classes.heading}>
-        <div className={classes.features}>Create.&nbsp;Mint.&nbsp;Sell.</div>
-        <div className={classes.description}>{`Create content + Art that you own in < 5 minutes`}</div>
+        <div className={classes.features}>SECURE.&nbsp;DIGITAL.&nbsp;CHAIN.</div>
+        <div className={classes.description}>Protect your digital assets anywhere, anytime.</div>
         <div className={classes.btnContainer}>
           <Link to="/create">
             <div className={classes.btn_1}>Create</div>

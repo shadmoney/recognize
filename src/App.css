@@ -10,9 +10,9 @@
   --shadow-light: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
   --default: #ffffff;
-  --main-color: #0d99ff;
-  --main-hovered: #0082e0;
-  --main-light: #62bdff;
+  --main-color: red;
+  --main-hovered: red;
+  --main-light: red;
   --main-lighter: #dbf0ff;
   --main-lightest: #f3faff;
   --main-disable: #ccecff;

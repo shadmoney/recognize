@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import { Magic } from "magic-sdk";
 
-// near wallets 
+// near wallets
 import { setupSender } from "@near-wallet-selector/sender";
 import { setupNearWallet } from "@near-wallet-selector/near-wallet";
 import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
@@ -144,7 +144,7 @@ export const initializeConnection = async (walletProps) => {
     const isSignedIn = walletSelector.isSignedIn();
     window.selector = walletSelector;
     const connectedChain = process.env.REACT_APP_ENV_STAGING === "true" ? 1111 : 1112;
-    console.log('signed..');
+    console.log("signed..");
     if (isSignedIn) {
       window.localStorage.setItem("near_wallet", "connected_to_near");
       dispatch(setChainId(connectedChain));

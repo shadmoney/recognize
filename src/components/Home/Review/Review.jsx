@@ -94,7 +94,7 @@ const Review = () => {
         <div className={classes.heading}>
           <span>Some people think we’re</span> <span className={classes.accent}>Pretty Cool.</span>
         </div>
-        <div className={classes.description}>See what people are saying about GenaDrop.</div>
+        <div className={classes.description}>See what people are saying about Recognize.</div>
         <div className={classes.display}>
           <div className={classes.row}>
             {tweetsData.map((review) => (

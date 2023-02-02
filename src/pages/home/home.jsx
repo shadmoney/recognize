@@ -16,17 +16,17 @@ import Partners from "../../components/Partners/Partners";
 const Home = () => (
   <div className={classes.container}>
     <Banner />
-    <Orgs />
-    <EarlyAccess />
+    {/* <Orgs />
+    <EarlyAccess /> */}
     <CameraMint />
     <Features />
     {/* <Plans /> */}
     <GenadropCreatedNFTs />
     <Review />
     {/* <JoinDiscord /> */}
-    <Partners />
-    <FAQ />
-    <Media />
+    {/* <Partners /> */}
+    {/* <FAQ />
+    <Media /> */}
   </div>
 );
 

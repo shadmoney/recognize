@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./footer.module.css";
-import logo from "../../assets/genadrop-logo-light.svg";
+import logo from "../../assets/recognize-light.svg";
 import { footerLinks, orgs, socialLinks } from "./footer-script";
 
 const Footer = () => (
@@ -15,7 +15,7 @@ const Footer = () => (
             <div className={classes.socialIcons}>
               {socialLinks.map((social, idx) => (
                 <a key={idx} className={classes.icon} href={social.link} target="_blank" rel="noopener noreferrer">
-                  <img src={social.icon} alt={`Minority Programmers ${social.name}`} />
+                  <img src={social.icon} alt={`Recognize ${social.name}`} />
                 </a>
               ))}
             </div>
@@ -39,7 +39,7 @@ const Footer = () => (
           <div>
             <div>This Project is in Public Beta</div>
             <div className={classes.termsAndPolicy}>
-              2022 Genadrop |
+              2022 Recognize |
               <a
                 href="https://docs.google.com/document/d/16tRGt3sCIauMNDCwq5A99zYUxwU8S5bpGhI0eaJzwAw/edit?usp=sharing"
                 target="_blank"
@@ -65,13 +65,8 @@ const Footer = () => (
             </div>
           </div>
 
-          <a
-            className={classes.build}
-            href="https://www.minorityprogrammers.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Built with ❤️ by the Minority Programmers Association
+          <a className={classes.build} href="/" target="_blank" rel="noopener noreferrer">
+            Built with ❤️ by Recognize
           </a>
         </div>
       </div>
