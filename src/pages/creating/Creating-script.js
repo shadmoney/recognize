@@ -21,12 +21,19 @@ const cards = [
     comingSoon: "",
   },
   {
-    title: "Collection",
-    description: "Import arts into layers",
+    title: "Compare",
+    description: "Compare similar images",
     icon: <Collection />,
     url: "/collection",
     comingSoon: "",
   },
+  // {
+  //   title: "Collection",
+  //   description: "Import arts into layers",
+  //   icon: <Collection />,
+  //   url: "/collection",
+  //   comingSoon: "",
+  // },
   {
     title: "Digital Art",
     description: "Upload an image and mint",
@@ -63,13 +70,13 @@ const cards = [
     url: "/mint/vibe",
     comingSoon: "",
   },
-  {
-    title: "Proof Of Sesh",
-    description: "Scan your stick for proof",
-    icon: <Sesh />,
-    url: "/mint/sesh",
-    comingSoon: "",
-  },
+  // {
+  //   title: "Proof Of Sesh",
+  //   description: "Scan your stick for proof",
+  //   icon: <Sesh />,
+  //   url: "/mint/sesh",
+  //   comingSoon: "",
+  // },
   {
     title: "Video",
     description: "Mint your favorite videos on chain",

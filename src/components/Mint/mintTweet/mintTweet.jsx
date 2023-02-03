@@ -114,7 +114,7 @@ const MintTweet = () => {
         <input
           onChange={(e) => handleSetState({ tweetLink: e.target.value })}
           type="text"
-          placeholder="https://twitter.com/BluntDAO/space/1573722916725850112"
+          placeholder="https://twitter.com/NPR/status/1595232428003655689"
         />
         <img
           src={arrow}
